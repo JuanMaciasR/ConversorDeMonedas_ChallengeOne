@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -8,20 +7,20 @@ public class Main {
         int opcion = 0;
 
         String menu = """
-                *****************************************
-                ¡Bienvenido/a al Conversor de Monedas!
-                
-                1 - Dolar --> Peso argentino
-                2 - Peso argentino --> Dolar
-                3 - Dolar --> Real brasileño
-                4 - Real brasileño --> Dolar
-                5 - Dolar --> Peso colombiano
-                6 - Peso colombiano --> Dolar
-                7 - Salir
-                
-                Elija una opcion tecleando un numero: 
-                *****************************************
-                """ ;
+            *****************************************
+            ¡Bienvenido/a al Conversor de Monedas!
+            
+            1 - Dolar --> Peso argentino
+            2 - Peso argentino --> Dolar
+            3 - Dolar --> Real brasileño
+            4 - Real brasileño --> Dolar
+            5 - Dolar --> Peso colombiano
+            6 - Peso colombiano --> Dolar
+            7 - Salir
+            
+            Elija una opcion tecleando un numero: 
+            *****************************************
+            """ ;
 
         while (opcion != 7){
             System.out.println(menu);
